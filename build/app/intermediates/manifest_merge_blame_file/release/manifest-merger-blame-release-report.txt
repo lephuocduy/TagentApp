@@ -1,0 +1,477 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.it_job_mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:4:5-78
+12-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:6:5-78
+14-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+15-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+15-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-77
+16-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+17-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-66
+18-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-63
+19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+19-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+19-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+20-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:5-82
+21-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:22-79
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/duylp/.gradle/caches/transforms-3/f62e2bc74ab6e97d14224d9dfe909fea/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/duylp/.gradle/caches/transforms-3/f62e2bc74ab6e97d14224d9dfe909fea/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+24
+25    <application
+26        android:name="android.app.Application"
+26-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:9:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.8.0] /Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:10:9-43
+29        android:label="Tagent" >
+29-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:8:9-31
+30        <activity
+30-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:11:9-50:20
+31            android:name="com.example.it_job_mobile.MainActivity"
+31-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:12:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:16:13-163
+33            android:exported="true"
+33-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:13:13-36
+34            android:hardwareAccelerated="true"
+34-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:17:13-47
+35            android:launchMode="singleTop"
+35-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:14:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:15:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:18:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:23:13-26:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:24:15-70
+47                android:resource="@style/NormalTheme" />
+47-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:25:15-52
+48            <meta-data
+48-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:27:13-30:17
+49                android:name="com.google.firebase.messaging.default_notification_channel_id"
+49-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:28:15-91
+50                android:value="tagent" />
+50-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:29:15-37
+51            <meta-data
+51-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:31:13-34:17
+52                android:name="com.google.firebase.messaging.default_notification_icon"
+52-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:32:15-85
+53                android:resource="@drawable/notification_logo" />
+53-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:33:15-61
+54            <meta-data
+54-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:35:13-38:17
+55                android:name="com.google.firebase.messaging.default_notification_color"
+55-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:36:15-86
+56                android:resource="@android:color/black" />
+56-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:37:15-54
+57
+58            <intent-filter>
+58-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:39:13-42:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:40:17-68
+59-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:40:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:41:17-76
+61-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:41:27-74
+62            </intent-filter>
+63            <intent-filter>
+63-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:43:13-46:29
+64                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+64-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:44:17-69
+64-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:44:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:45:17-76
+66-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:45:27-73
+67            </intent-filter>
+68            <intent-filter>
+68-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:47:13-49:29
+69                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+69-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:48:17-78
+69-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:48:25-75
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:51:9-54:71
+73            android:name="com.yalantis.ucrop.UCropActivity"
+73-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:52:13-60
+74            android:screenOrientation="portrait"
+74-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:53:13-49
+75            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+75-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:54:13-69
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:57:9-59:33
+81            android:name="flutterEmbedding"
+81-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:58:13-44
+82            android:value="2" />
+82-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:59:13-30
+83
+84        <service
+84-->[:cloud_firestore] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:cloud_firestore] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:54:13-37
+88            <meta-data
+88-->[:cloud_firestore] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+89-->[:cloud_firestore] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-134
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:cloud_firestore] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:firebase_storage] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+92-->[:firebase_storage] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-126
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_storage] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-38:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+95-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:17-128
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:17-82
+97            <meta-data
+97-->[:firebase_core] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+98-->[:firebase_core] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_core] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:55:13-57:85
+101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+101-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:56:17-119
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:57:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/duylp/.gradle/caches/transforms-3/78b5840d0b7e4a6ef2eb6f0150976e00/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+104                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+104-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/duylp/.gradle/caches/transforms-3/78b5840d0b7e4a6ef2eb6f0150976e00/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/duylp/.gradle/caches/transforms-3/78b5840d0b7e4a6ef2eb6f0150976e00/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-firestore:24.4.0] /Users/duylp/.gradle/caches/transforms-3/f0f90bbd2c9baf9aeeb6c6a76ae8f1e9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+107                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+107-->[com.google.firebase:firebase-firestore:24.4.0] /Users/duylp/.gradle/caches/transforms-3/f0f90bbd2c9baf9aeeb6c6a76ae8f1e9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-firestore:24.4.0] /Users/duylp/.gradle/caches/transforms-3/f0f90bbd2c9baf9aeeb6c6a76ae8f1e9/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-storage:20.1.0] /Users/duylp/.gradle/caches/transforms-3/3da23818ff144d93e097a7a6f8e33bda/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+110                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+110-->[com.google.firebase:firebase-storage:20.1.0] /Users/duylp/.gradle/caches/transforms-3/3da23818ff144d93e097a7a6f8e33bda/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-storage:20.1.0] /Users/duylp/.gradle/caches/transforms-3/3da23818ff144d93e097a7a6f8e33bda/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-iid:21.1.0] /Users/duylp/.gradle/caches/transforms-3/b3bde87bee9f13d9e641057eeb44cccb/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+113-->[com.google.firebase:firebase-iid:21.1.0] /Users/duylp/.gradle/caches/transforms-3/b3bde87bee9f13d9e641057eeb44cccb/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-iid:21.1.0] /Users/duylp/.gradle/caches/transforms-3/b3bde87bee9f13d9e641057eeb44cccb/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+115            <meta-data
+115-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/duylp/.gradle/caches/transforms-3/f62e2bc74ab6e97d14224d9dfe909fea/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+116                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+116-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/duylp/.gradle/caches/transforms-3/f62e2bc74ab6e97d14224d9dfe909fea/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/duylp/.gradle/caches/transforms-3/f62e2bc74ab6e97d14224d9dfe909fea/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-installations:17.1.0] /Users/duylp/.gradle/caches/transforms-3/60a1c58b4c675ddb191abe07668b1b6b/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+119                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+119-->[com.google.firebase:firebase-installations:17.1.0] /Users/duylp/.gradle/caches/transforms-3/60a1c58b4c675ddb191abe07668b1b6b/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-installations:17.1.0] /Users/duylp/.gradle/caches/transforms-3/60a1c58b4c675ddb191abe07668b1b6b/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+121        </service>
+122        <service
+122-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-17:72
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+123-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-107
+124            android:exported="false"
+124-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-69
+126        <service
+126-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-24:19
+127            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+127-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-97
+128            android:exported="false" >
+128-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+129            <intent-filter>
+129-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:47:13-49:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:48:17-78
+130-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:48:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <receiver
+134-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-33:20
+135            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+135-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-98
+136            android:exported="true"
+136-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-73
+138            <intent-filter>
+138-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+139-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+140            </intent-filter>
+141        </receiver>
+142
+143        <provider
+143-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-45:38
+144            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+144-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-102
+145            android:authorities="com.example.it_job_mobile.flutterfirebasemessaginginitprovider"
+145-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-88
+146            android:exported="false"
+146-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
+147            android:initOrder="99" />
+147-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-35
+148        <provider
+148-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+149            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+149-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-82
+150            android:authorities="com.example.it_job_mobile.flutter.image_provider"
+150-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+151            android:exported="false"
+151-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+152            android:grantUriPermissions="true" >
+152-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+153            <meta-data
+153-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:75
+154                android:name="android.support.FILE_PROVIDER_PATHS"
+154-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+155                android:resource="@xml/flutter_image_picker_file_paths" />
+155-->[:image_picker_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-72
+156        </provider>
+157
+158        <receiver
+158-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+159            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+159-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-91
+160            android:exported="false" />
+160-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+161        <receiver
+161-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:40
+162            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+162-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-97
+163            android:exported="false" />
+163-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+164        <receiver
+164-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-29:20
+165            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+165-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-101
+166            android:exported="false" >
+166-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+167            <intent-filter>
+167-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-28:29
+168                <action android:name="android.intent.action.BOOT_COMPLETED" />
+168-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-79
+168-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-76
+169                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+169-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-84
+169-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-81
+170                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+170-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-82
+170-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-79
+171                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+171-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-82
+171-->[:flutter_local_notifications] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-79
+172            </intent-filter>
+173        </receiver>
+174
+175        <activity
+175-->[:url_launcher_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+176            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+176-->[:url_launcher_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+177            android:exported="false"
+177-->[:url_launcher_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+178            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+178-->[:url_launcher_android] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+179
+180        <uses-library
+180-->[androidx.window:window:1.0.0-beta04] /Users/duylp/.gradle/caches/transforms-3/20e9953c66d7e44ff13fe73410b7b89d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+181            android:name="androidx.window.extensions"
+181-->[androidx.window:window:1.0.0-beta04] /Users/duylp/.gradle/caches/transforms-3/20e9953c66d7e44ff13fe73410b7b89d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+182            android:required="false" />
+182-->[androidx.window:window:1.0.0-beta04] /Users/duylp/.gradle/caches/transforms-3/20e9953c66d7e44ff13fe73410b7b89d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+183        <uses-library
+183-->[androidx.window:window:1.0.0-beta04] /Users/duylp/.gradle/caches/transforms-3/20e9953c66d7e44ff13fe73410b7b89d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+184            android:name="androidx.window.sidecar"
+184-->[androidx.window:window:1.0.0-beta04] /Users/duylp/.gradle/caches/transforms-3/20e9953c66d7e44ff13fe73410b7b89d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+185            android:required="false" />
+185-->[androidx.window:window:1.0.0-beta04] /Users/duylp/.gradle/caches/transforms-3/20e9953c66d7e44ff13fe73410b7b89d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+186
+187        <receiver
+187-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:31:9-38:20
+188            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+188-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:32:13-78
+189            android:exported="true"
+189-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:33:13-36
+190            android:permission="com.google.android.c2dm.permission.SEND" >
+190-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:34:13-73
+191            <intent-filter>
+191-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+192                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+192-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+192-->[:firebase_messaging] /Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+193            </intent-filter>
+194        </receiver>
+195        <!--
+196             FirebaseMessagingService performs security checks at runtime,
+197             but set to not exported to explicitly avoid allowing another app to call it.
+198        -->
+199        <service
+199-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:44:9-51:19
+200            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+200-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:45:13-82
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:46:13-43
+202            android:exported="false" >
+202-->[com.google.firebase:firebase-messaging:23.1.0] /Users/duylp/.gradle/caches/transforms-3/005c46829e567bc81ea7415279821c2f/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:47:13-37
+203            <intent-filter android:priority="-500" >
+203-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:47:13-49:29
+204                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+204-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:48:17-78
+204-->/Users/duylp/Desktop/Capstone/IT-Job-Mobile/android/app/src/main/AndroidManifest.xml:48:25-75
+205            </intent-filter>
+206        </service>
+207        <service
+207-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duylp/.gradle/caches/transforms-3/b432693c822ee94b8b1b2dcd76457853/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+208            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+208-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duylp/.gradle/caches/transforms-3/b432693c822ee94b8b1b2dcd76457853/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+209            android:exported="false" >
+209-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duylp/.gradle/caches/transforms-3/b432693c822ee94b8b1b2dcd76457853/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+210            <meta-data
+210-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duylp/.gradle/caches/transforms-3/b432693c822ee94b8b1b2dcd76457853/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+211                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+211-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duylp/.gradle/caches/transforms-3/b432693c822ee94b8b1b2dcd76457853/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+212                android:value="cct" />
+212-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duylp/.gradle/caches/transforms-3/b432693c822ee94b8b1b2dcd76457853/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+213        </service>
+214        <service
+214-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+215            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+215-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+216            android:exported="false"
+216-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+217            android:permission="android.permission.BIND_JOB_SERVICE" >
+217-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+218        </service>
+219
+220        <receiver
+220-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+221            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+221-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+222            android:exported="false" />
+222-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duylp/.gradle/caches/transforms-3/cdc681db0f668bc8e57a80d7fc59c3b5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+223
+224        <provider
+224-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+225            android:name="com.google.firebase.provider.FirebaseInitProvider"
+225-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+226            android:authorities="com.example.it_job_mobile.firebaseinitprovider"
+226-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+227            android:directBootAware="true"
+227-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+228            android:exported="false"
+228-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+229            android:initOrder="100" />
+229-->[com.google.firebase:firebase-common:20.2.0] /Users/duylp/.gradle/caches/transforms-3/a66c266afbcd032651435dd246eaa277/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+230
+231        <activity
+231-->[com.google.android.gms:play-services-base:18.0.1] /Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+232            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+232-->[com.google.android.gms:play-services-base:18.0.1] /Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+233            android:exported="false"
+233-->[com.google.android.gms:play-services-base:18.0.1] /Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+234            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+234-->[com.google.android.gms:play-services-base:18.0.1] /Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+235
+236        <receiver
+236-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+237            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+237-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+238            android:enabled="true"
+238-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+239            android:exported="false" >
+239-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+240        </receiver>
+241
+242        <service
+242-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+243            android:name="com.google.android.gms.measurement.AppMeasurementService"
+243-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+245            android:exported="false" />
+245-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+246        <service
+246-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+247            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+247-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+248            android:enabled="true"
+248-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+249            android:exported="false"
+249-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+250            android:permission="android.permission.BIND_JOB_SERVICE" />
+250-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/duylp/.gradle/caches/transforms-3/e7a175e94584d8282a477ff90aefc2a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+251
+252        <meta-data
+252-->[com.google.android.gms:play-services-basement:18.1.0] /Users/duylp/.gradle/caches/transforms-3/48260e9410b48b32b7b5e294192b7b61/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+253            android:name="com.google.android.gms.version"
+253-->[com.google.android.gms:play-services-basement:18.1.0] /Users/duylp/.gradle/caches/transforms-3/48260e9410b48b32b7b5e294192b7b61/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+254            android:value="@integer/google_play_services_version" />
+254-->[com.google.android.gms:play-services-basement:18.1.0] /Users/duylp/.gradle/caches/transforms-3/48260e9410b48b32b7b5e294192b7b61/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+255    </application>
+256
+257</manifest>

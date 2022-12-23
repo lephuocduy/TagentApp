@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

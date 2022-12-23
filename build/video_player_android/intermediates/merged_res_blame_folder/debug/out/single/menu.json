@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/video_player_android/intermediates/merged_res/debug/menu/example_menu2.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/bd0e3d63fd275ee35b7aa7ba2ee22250/transformed/core-1.7.0/res/menu/example_menu2.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/video_player_android/intermediates/merged_res/debug/menu/example_menu.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/bd0e3d63fd275ee35b7aa7ba2ee22250/transformed/core-1.7.0/res/menu/example_menu.xml"
+    }
+]

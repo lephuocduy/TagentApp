@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    }
+]

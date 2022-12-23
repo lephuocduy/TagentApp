@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/toast_custom.xml",
+        "source": "/opt/homebrew/Caskroom/flutter/2.10.3/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/res/layout/toast_custom.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/fluttertoast/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    }
+]

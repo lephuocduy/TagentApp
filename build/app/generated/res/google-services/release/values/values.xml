@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">202082595172-u66co1a3oaq569s4pf3u6bacd6cl16le.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">202082595172</string>
+    <string name="google_api_key" translatable="false">AIzaSyAtVAZVMHitx4b2MnqxoA-w2zi2ahMX0A0</string>
+    <string name="google_app_id" translatable="false">1:202082595172:android:b59a4df43023553bf34a71</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAtVAZVMHitx4b2MnqxoA-w2zi2ahMX0A0</string>
+    <string name="google_storage_bucket" translatable="false">captone-dfc3c.appspot.com</string>
+    <string name="project_id" translatable="false">captone-dfc3c</string>
+</resources>

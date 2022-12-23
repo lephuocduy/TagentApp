@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_res/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

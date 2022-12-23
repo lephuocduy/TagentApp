@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/cloud_firestore/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/aa91aff489edb104c1f31d87f2a176ce/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    }
+]

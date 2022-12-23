@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "202082595172",
+    "project_id": "captone-dfc3c",
+    "storage_bucket": "captone-dfc3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202082595172:android:b59a4df43023553bf34a71",
+        "android_client_info": {
+          "package_name": "com.example.it_job_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202082595172-u66co1a3oaq569s4pf3u6bacd6cl16le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtVAZVMHitx4b2MnqxoA-w2zi2ahMX0A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202082595172-u66co1a3oaq569s4pf3u6bacd6cl16le.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "202082595172-dke5s3hf9bmrtfs61p6rtkp4r7kjf6t7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.itJobMobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

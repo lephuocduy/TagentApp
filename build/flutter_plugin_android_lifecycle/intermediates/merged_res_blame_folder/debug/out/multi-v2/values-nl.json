@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "map": [
+                {
+                    "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/flutter_plugin_android_lifecycle/intermediates/merged_res/debug/values-nl/values-nl.xml",
+            "map": [
+                {
+                    "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

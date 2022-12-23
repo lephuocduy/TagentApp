@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/merged_res/release/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_cropper/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/duylp/.gradle/caches/transforms-3/c10a8570a87e650f4b51e9d28203d651/transformed/appcompat-1.3.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

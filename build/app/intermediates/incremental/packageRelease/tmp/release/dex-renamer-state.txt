@@ -1,0 +1,4 @@
+#Mon Dec 19 22:38:46 ICT 2022
+base.0=/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

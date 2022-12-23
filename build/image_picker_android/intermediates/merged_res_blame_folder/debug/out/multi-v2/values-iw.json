@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "map": [
+                {
+                    "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/image_picker_android/intermediates/merged_res/debug/values-iw/values-iw.xml",
+            "map": [
+                {
+                    "source": "/Users/duylp/.gradle/caches/transforms-3/7ab539863233fb18d22686bf5648cccc/transformed/core-1.8.0/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

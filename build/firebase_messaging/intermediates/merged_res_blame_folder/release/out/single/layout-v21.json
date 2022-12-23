@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/duylp/Desktop/Capstone/IT-Job-Mobile/build/firebase_messaging/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/duylp/.gradle/caches/transforms-3/09e8e3c623634b8bd34ee4f5b4eb4951/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
